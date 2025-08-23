@@ -49,3 +49,6 @@ def imagepage3(request,imagesname):
         'var': var
     }   
     return render(request,'imagepage3.html',context = {'var': var})
+
+def forms1(request):
+    return render(request,'myforms.html')
